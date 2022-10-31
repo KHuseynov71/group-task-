@@ -58,11 +58,13 @@ nav {
     justify-content: space-between;
     text-align: center;
     padding: 15px 20px;
+
     .logo {
         font-size: 20px;
         font-weight: 100;
         color: #fff;
         cursor: pointer;
+
         b {
             color: red;
         }
@@ -197,9 +199,11 @@ input[type="checkbox"] {
             height: 0;
             visibility: hidden;
             transition: 0.3s;
-            li{
+
+            li {
                 text-align: center;
-                a{
+
+                a {
                     color: black;
                     font-size: 28px;
                     padding: 25px;
@@ -207,28 +211,34 @@ input[type="checkbox"] {
                 }
             }
         }
-        .bar{
+
+        .bar {
             display: block;
             position: absolute;
             top: 20px;
             right: 80px;
             cursor: pointer;
-          #times{
-            display: none;
-          }  
+
+            #times {
+                display: none;
+            }
         }
     }
-    #check:checked~ nav .bar #times{
+
+    #check:checked~nav .bar #times {
         display: block;
-    } 
-    #check:checked~ nav .bar #bars{
-        display: none; 
     }
-    #check:checked~ nav ol{
-        visibility:visible ;
+
+    #check:checked~nav .bar #bars {
+        display: none;
+    }
+
+    #check:checked~nav ol {
+        visibility: visible;
         height: 465px;
     }
 }
+
 // bacground sekil elave ede bilmirem sebebi nedi?
 
 // .background-image {
